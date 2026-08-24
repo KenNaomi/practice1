@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>کافه دارچین</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- هدر بالای صفحه -->
+  <header id="siteHeader">
+    <div class="wrap">
+      <div class="logo">
+        <span class="dot"></span>کافه دارچین
+      </div>
+
+      <!-- منوی دسکتاپ -->
+      <nav class="desktop-nav">
+        <a href="#about">درباره ما</a>
+        <a href="#menu">منو</a>
+        <a href="#gallery">لحظه‌ها</a>
+        <a href="#info">ساعات کاری</a>
+        <a href="#reserve">رزرو میز</a>
+      </nav>
+
+      <div class="header-actions">
+        <a href="#reserve" class="btn btn-gold">رزرو میز</a>
+      </div>
+
+      <!-- دکمه‌ی همبرگری برای موبایل -->
+      <button class="burger" id="burgerBtn" aria-label="باز کردن منو">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- منوی تمام‌صفحه‌ی موبایل -->
+  <div class="mobile-nav" id="mobileNav">
+    <button class="mobile-close" id="mobileClose" aria-label="بستن منو">×</button>
+    <a href="#about">درباره ما</a>
+    <a href="#menu">منو</a>
+    <a href="#gallery">لحظه‌ها</a>
+    <a href="#info">ساعات کاری</a>
+    <a href="#reserve">رزرو میز</a>
+  </div>
+
+  <!-- بخش هیرو (اولین چیزی که دیده می‌شود) -->
+  <section class="hero">
+    <div class="wrap">
+
+      <!-- ستون متن -->
+      <div>
+        <div class="eyebrow">قهوه‌خانه‌ای کوچک در دل شهر</div>
+        <h1>یک فنجان آرامش، <em>با عطر دارچین</em></h1>
+        <p class="lead">
+          دارچین جایی‌ست برای نفس کشیدن آهسته؛ قهوه‌ی تازه‌دم، شیرینی خانگی
+          و صندلی‌ای کنار پنجره که منتظرتان است.
+        </p>
+        <div class="hero-actions">
+          <a href="#menu" class="btn btn-gold">دیدن منو</a>
+          <a href="#reserve" class="btn btn-ghost">رزرو میز</a>
+        </div>
+      </div>
+
+      <!-- ستون فنجان متحرک -->
+      <div class="cup-stage">
+        <div class="steam">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M40 70 H150 L142 150 Q140 168 120 168 H70 Q50 168 48 150 L40 70Z" fill="#f5ecd9"/>
+          <path d="M40 70 H150 L146 100 H44 L40 70Z" fill="#c08a3e"/>
+          <path d="M150 80 Q178 80 178 104 Q178 128 150 126" stroke="#f5ecd9" stroke-width="8" fill="none" stroke-linecap="round"/>
+          <ellipse cx="95" cy="70" rx="55" ry="8" fill="#3c2513"/>
+        </svg>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- نوار متحرک (مارکی) -->
+  <div class="marquee">
+    <div class="marquee-track">
+      <span>☕ دارچین</span><span>•</span>
+      <span>قهوه‌ی تازه‌دم</span><span>•</span>
+      <span>عسل کوهی</span><span>•</span>
+      <span>هل و زعفران</span><span>•</span>
+      <span>شیرینی خانگی</span><span>•</span>
+      <span>☕ دارچین</span><span>•</span>
+      <span>قهوه‌ی تازه‌دم</span><span>•</span>
+      <span>عسل کوهی</span><span>•</span>
+      <span>هل و زعفران</span><span>•</span>
+      <span>شیرینی خانگی</span><span>•</span>
+    </div>
+  </div>
+
+  <!-- بخش درباره‌ی ما -->
+  <section class="about" id="about">
+    <div class="wrap">
+
+      <!-- دایره‌ی گرافیکی سمت راست -->
+      <div class="rings reveal">
+        <div class="core">
+          <strong>۲۰۱۸</strong>
+          <span>سالی که دارچین باز شد</span>
+        </div>
+      </div>
+
+      <!-- متن درباره‌ی ما -->
+      <div class="about-text reveal">
+        <div class="eyebrow">داستان ما</div>
+        <h2>از یک ایده‌ی کوچک تا یک خانه‌ی دوم</h2>
+        <p>
+          دارچین با یک رویا شروع شد: قهوه‌خانه‌ای که در آن هم بشود کار کرد،
+          هم با دوستان نشست و هم تنها، با یک کتاب، ساعتی را گذراند.
+          دانه‌های قهوه را تازه برشته می‌کنیم و شیرینی‌ها را هر روز صبح
+          در آشپزخانه‌ی خودمان می‌پزیم.
+        </p>
+        <p>
+          هر فنجان با دقت و حوصله آماده می‌شود، همان‌طور که دوست داریم
+          مهمان‌هایمان هم با آرامش وقت بگذرانند.
+        </p>
+
+        <!-- آمار کوچک -->
+        <div class="stats">
+          <div>
+            <strong>۱۲+</strong>
+            <span>نوع نوشیدنی گرم و سرد</span>
+          </div>
+          <div>
+            <strong>۷</strong>
+            <span>روز هفته باز هستیم</span>
+          </div>
+          <div>
+            <strong>۴.۹</strong>
+            <span>امتیاز مهمانان</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- بخش منو -->
+  <section class="menu" id="menu">
+    <div class="wrap">
+
+      <div class="menu-head reveal">
+        <div class="eyebrow">منوی دارچین</div>
+        <h2>هرچه دوست دارید، اینجاست</h2>
+      </div>
+
+      <!-- دکمه‌های تب برای فیلتر کردن منو -->
+      <div class="tabs reveal">
+        <button class="tab-btn active" data-cat="hot">نوشیدنی گرم</button>
+        <button class="tab-btn" data-cat="cold">نوشیدنی سرد</button>
+        <button class="tab-btn" data-cat="breakfast">صبحانه</button>
+        <button class="tab-btn" data-cat="dessert">دسر</button>
+      </div>
+
+      <!-- گرید آیتم‌های منو -->
+      <div class="menu-grid reveal" id="menuGrid">
+
+        <!-- نوشیدنی گرم -->
+        <div class="menu-item show" data-cat="hot">
+          <div>
+            <h3>اسپرسو</h3>
+            <p>دو شات، رست تیره، طعمی غلیظ و پرقدرت</p>
+          </div>
+          <span class="price">۶۵٬۰۰۰</span>
+        </div>
+
+        <div class="menu-item show" data-cat="hot">
+          <div>
+            <h3>کاپوچینو</h3>
+            <p>اسپرسو با فوم شیر گرم و لایه‌ای نرم</p>
+          </div>
+          <span class="price">۸۵٬۰۰۰</span>
+        </div>
+
+        <div class="menu-item show" data-cat="hot">
+          <div>
+            <h3>لاته دارچینی</h3>
+            <p>لاته با شربت دارچین خانگی و کمی جوز هندی</p>
+          </div>
+          <span class="price">۹۵٬۰۰۰</span>
+        </div>
+
+        <div class="menu-item show" data-cat="hot">
+          <div>
+            <h3>قهوه ترک</h3>
+            <p>دم‌کشیده در قابلمه‌ی مسی، همراه با یک لیوان آب</p>
+          </div>
+          <span class="price">۷۰٬۰۰۰</span>
+        </div>
+
+        <div class="menu-item show" data-cat="hot">
+          <div>
+            <h3>دمنوش زعفران و هل</h3>
+            <p>ترکیبی معطر برای عصرهای آرام</p>
+          </div>
+          <span class="price">۶۰٬۰۰۰</span>
+        </div>
+
+        <!-- نوشیدنی سرد -->
+        <div class="menu-item" data-cat="cold">
+          <div>
+            <h3>آیس لاته</h3>
+            <p>اسپرسو، شیر سرد و یخ خردشده</p>
+          </div>
+          <span class="price">۹۰٬۰۰۰</span>
+        </div>
+
+        <div class="menu-item" data-cat="cold">
+          <div>
+            <h3>کولد برو ۱۲ ساعته</h3>
+            <p>دم سرد ملایم با ته‌مزه‌ی شکلاتی</p>
+          </div>
+          <span class="price">۹۸٬۰۰۰</span>
+        </div>
+
+        <div class="menu-item" data-cat="cold">
+          <div>
+            <h3>فراپه دارچین</h3>
+            <p>یخ‌زده، خامه‌ای و پرانرژی</p>
+          </div>
+          <span class="price">۱۰۵٬۰۰۰</span>
+        </div>
+
+        <div class="menu-item" data-cat="cold">
+          <div>
+            <h3>لیموناد نعنا و عسل</h3>
+            <p>خنک و تازه، مناسب روزهای گرم</p>
+          </div>
+          <span class="price">۷۵٬۰۰۰</span>
+        </div>
+        <!-- صبحانه -->
+        <div class="menu-item" data-cat="breakfast">
+          <div>
+            <h3>نان، پنیر و گردو</h3>
+            <p>نان تازه‌ی روز با پنیر محلی و گردوی خرد شده</p>
+          </div>
+          <span class="price">۱۲۰٬۰۰۰</span>
+        </div>
+        <div class="menu-item" data-cat="breakfast">
+          <div>
+            <h3>املت گوجه و ریحان</h3>
+            <p>سه تخم‌مرغ، گوجه‌ی تازه و ریحان معطر</p>
+          </div>
+          <span class="price">۱۳۵٬۰۰۰</span>
+        </div>
+
+        <div class="menu-item" data-cat="breakfast">
+          <div>
+            <h3>حلوا و چای صبحگاهی</h3>
+            <p>حلوای خانگی همراه با یک استکان چای تازه‌دم</p>
+          </div>
+          <span class="price">۹۵٬۰۰۰</span>
+        </div>
+        <!-- دسر -->
+        <div class="menu-item" data-cat="dessert">
+          <div>
+            <h3>چیزکیک زعفرانی</h3>
+            <p>پایه‌ی بیسکویتی و رویه‌ی خامه‌ای زعفران</p>
+          </div>
+          <span class="price">۱۱۰٬۰۰۰</span>
+        </div>
+        <div class="menu-item" data-cat="dessert">
+          <div>
+            <h3>براونی داغ</h3>
+            <p>همراه با یک اسکوپ بستنی وانیل</p>
+          </div>
+          <span class="price">۱۱۵٬۰۰۰</span>
+        </div>
+        <div class="menu-item" data-cat="dessert">
+          <div>
+            <h3>بستنی سنتی زعفرانی</h3>
+            <p>با تکه‌های پسته و گلاب</p>
+          </div>
+          <span class="price">۸۵٬۰۰۰</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- بخش گالری -->
+  <section class="gallery" id="gallery">
+    <div class="wrap">
+      <div class="menu-head reveal">
+        <div class="eyebrow">لحظه‌های دارچینی</div>
+        <h2>یک نگاه به فضای کافه</h2>
+      </div>
+      <div class="gallery-grid reveal">
+        <div class="g g1"><span>گوشه‌ی کنار پنجره</span></div>
+        <div class="g g2"><span>باغچه‌ی سبز پشت کافه</span></div>
+        <div class="g g3"><span>میز برشته‌کاری قهوه</span></div>
+        <div class="g g4"><span>نور غروب روی میزها</span></div>
+        <div class="g g5"><span>سینی صبحانه‌ی دارچین</span></div>
+        <div class="g g6"><span>قفسه‌ی کتاب‌های مهمان‌ها</span></div>
+      </div>
+    </div>
+  </section>
+  <!-- بخش ساعات کاری و تماس -->
+  <section class="info" id="info">
+    <div class="wrap">
+      <!-- ستون ساعات کاری -->
+      <div class="reveal">
+        <div class="eyebrow">ساعات کاری</div>
+        <h2>همیشه یک جای گرم منتظرتان است</h2>
+        <table class="hours-table">
+          <tr>
+            <td>شنبه تا چهارشنبه</td>
+            <td>۸:۰۰ تا ۲۲:۰۰</td>
+          </tr>
+          <tr>
+            <td>پنجشنبه و جمعه</td>
+            <td>۹:۰۰ تا ۲۳:۳۰</td>
+          </tr>
+          <tr>
+            <td>روزهای تعطیل رسمی</td>
+            <td>۱۰:۰۰ تا ۲۰:۰۰</td>
+          </tr>
+        </table>
+      </div>
+      <!-- ستون راه‌های ارتباطی -->
+      <div class="reveal">
+        <div class="eyebrow">راه‌های ارتباطی</div>
+        <h2>سر بزنید یا زنگ بزنید</h2>
+        <div class="contact-block">
+          <div class="contact-row">
+            <div class="ic">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+                <path d="M12 22s7-7.5 7-12.5A7 7 0 0 0 5 9.5C5 14.5 12 22 12 22Z" stroke="currentColor" stroke-width="1.6"/>
+                <circle cx="12" cy="9.5" r="2.5" stroke="currentColor" stroke-width="1.6"/>
+              </svg>
+            </div>
+            <div>
+              <strong>خیابان ولیعصر، کوچه‌ی بهار، پلاک ۱۴</strong>
+              <p>تهران</p>
+            </div>
+          </div>
+          <div class="contact-row">
+            <div class="ic">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+                <path d="M4 5c0-1 1-2 2-2h2l2 5-2 1.5c1 2.5 3 4.5 5.5 5.5L15 13l5 2v2c0 1-1 2-2 2C10.5 19 4 12.5 4 5Z" stroke="currentColor" stroke-width="1.6"/>
+              </svg>
+            </div>
+            <div>
+              <strong>۰۲۱-۱۲۳۴۵۶۷۸</strong>
+              <p>پاسخگویی از ۸ صبح تا ۱۰ شب</p>
+            </div>
+          </div>
+          <div class="contact-row">
+            <div class="ic">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+                <rect x="3" y="5" width="18" height="14" rx="2" stroke="currentColor" stroke-width="1.6"/>
+                <path d="M4 7l8 6 8-6" stroke="currentColor" stroke-width="1.6"/>
+              </svg>
+            </div>
+            <div>
+              <strong>hello@darchincafe.ir</strong>
+              <p>برای رزرو گروهی و رویدادها</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- بخش رزرو میز -->
+  <section class="reserve" id="reserve">
+    <div class="wrap">
+      <div class="reserve-card reveal">
+        <!-- ستون متن توضیحی -->
+        <div>
+          <div class="eyebrow">رزرو میز</div>
+          <h2>میزتان را از حالا نگه دارید</h2>
+          <p>
+            فرم زیر را پر کنید تا میزی دنج برایتان کنار بگذاریم.
+            تأیید رزرو را با پیامک دریافت خواهید کرد.
+          </p>
+        </div>
+        <!-- فرم رزرو -->
+        <form id="reserveForm" novalidate>
+          <div class="form-row">
+            <input type="text" id="nameInput" placeholder="نام شما" autocomplete="name">
+            <input type="tel" id="phoneInput" placeholder="شماره تماس" autocomplete="tel">
+          </div>
+          <div class="form-row">
+            <input type="date" id="dateInput">
+            <select id="guestsInput">
+              <option value="">تعداد نفرات</option>
+              <option>۱ نفر</option>
+              <option>۲ نفر</option>
+              <option>۳ تا ۴ نفر</option>
+              <option>۵ نفر یا بیشتر</option>
+            </select>
+          </div>
+          <button type="submit" class="btn btn-gold">ثبت رزرو</button>
+          <div class="form-msg" id="formMsg"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+  <!-- فوتر -->
+  <footer>
+    <div class="wrap">
+      <div>
+        <div class="logo">
+          <span class="dot"></span>کافه دارچین
+        </div>
+        <div class="fine">یک فنجان آرامش، هر روز</div>
+      </div>
+      <div class="foot-links">
+        <a href="#about">درباره ما</a>
+        <a href="#menu">منو</a>
+        <a href="#gallery">لحظه‌ها</a>
+        <a href="#reserve">رزرو میز</a>
+      </div>
+    </div>
+    <div class="foot-bottom" id="footBottom"></div>
+  </footer>
+  <!-- پیام کوچک تأیید (توست) -->
+  <div class="toast" id="toast"></div>
+</body>
+<script src="assets/js/script.js"></script>
+</html>
